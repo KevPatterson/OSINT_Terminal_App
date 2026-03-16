@@ -1,0 +1,27 @@
+node_modules/
+dist/
+build/
+.vscode/
+.DS_Store
+.env
+.env.*
+coverage/
+*.log
+*.local
+*.cache
+*.tmp
+*.swp
+*.swo
+
+# Vercel
+.vercel/
+output/
+
+# Static build outputs
+*.tgz
+*.tar.gz
+*.zip
+*.7z
+*.bak
+*.old
+*.orig
