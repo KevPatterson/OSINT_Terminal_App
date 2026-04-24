@@ -11,7 +11,6 @@ const Routes = () => {
       <ErrorBoundary>
       <ScrollToTop />
       <RouterRoutes>
-        {/* Define your route here */}
         <Route path="/" element={<OsintTerminalDashboard />} />
         <Route path="/osint-terminal-dashboard" element={<OsintTerminalDashboard />} />
         <Route path="*" element={<NotFound />} />
